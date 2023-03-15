@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ImranHossain_files.ramadan_update">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.ImranHossain_files.ramadan_update.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.Add" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.List_data" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.Email" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.Alart_Box" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.Update" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.Delete" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.Tojbi" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.Tojbi1" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.ShowSearchResult" />
+        <activity android:name="com.example.ImranHossain_files.ramadan_update.About"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_create_date"
+            android:icon="@drawable/date_icon"
+            android:title="Create Date" />
+
+
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ramadan List" />
+
+
+        <item
+            android:id="@+id/nav_tojbi"
+            android:icon="@drawable/timer1"
+            android:title="Tojbi" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About Apps" />
+
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Complain or Suggest" />
+
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/log"
+                android:title="Exit" />
+
+
+        </menu>
+    </item>
+
+</menu>

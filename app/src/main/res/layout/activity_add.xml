@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgg22"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context=".Add">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_transparent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/btn_Save"
+        android:background="@android:color/holo_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="save"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        tools:targetApi="ice_cream_sandwich" />
+
+
+
+
+    <TextView
+
+        android:drawableLeft="@drawable/date"
+        android:id="@+id/date_text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:hint="dd/mm/yyyy"
+        android:paddingLeft="10dp"
+        android:textSize="23dp"
+
+        />
+
+
+
+
+
+    <EditText
+        android:id="@+id/ifter"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/time"
+        android:hint=" সেহেরির সময়"
+        android:textStyle="bold"
+        android:inputType="phone"
+        android:textSize="23dp"
+        />
+
+    <EditText
+        android:id="@+id/seheri"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/time"
+        android:hint=" ইফতারের সময়"
+        android:inputType="phone"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/black"
+        android:textSize="23dp"
+
+
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>

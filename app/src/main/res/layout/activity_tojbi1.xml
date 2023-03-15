@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgone"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context=".Tojbi1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/trans_white"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1.2"
+        android:text="Set number, what  you want  to  count."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+
+
+    <EditText
+
+        android:id="@+id/editText_to"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="set number\t "
+        android:inputType="phone"
+
+        android:textSize="20dp" />
+
+
+
+    <TextView
+
+        android:id="@+id/count"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+
+        android:layout_gravity="center"
+        android:layout_weight="3.8"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+
+        android:id="@+id/button_to"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="3.2"
+        android:background="#43FF9100"
+        android:drawableLeft="@drawable/click1"
+        android:drawableRight="@drawable/click1"
+        android:text="Start Count"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_marginRight="18dp"
+        android:layout_gravity="right"
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1.5"
+        android:textColor="@color/ic_launcher_background"
+        android:text="Refresh"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

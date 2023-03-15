@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_6"
+    tools:context=".About">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="18dp"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="15dp"
+        android:text="This is an Android application which name is Ramadan. It is an offline application. By using this application you will save Sehery's and Iftar's time for whole Ramadan, then you will check the time when you need. When you install this app, app's database will remain empty. So after install, you will save data date by date. Another feature is Tojbi. This feature is always usable after installing this app.
+\n\nThanks to stay with us.\n Be a religious."
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+
+</LinearLayout>
